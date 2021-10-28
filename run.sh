@@ -22,4 +22,4 @@ cd ~/vccphone/ccminer/
 cd ~/vccphone/ccminer/
 cd ~/vccphone/ccminer/
 nano ~/vccphone/ccminer/run3
-echo Congrats, now run ./run3 to start mining. In the future, miner directory is: ~/vccphone/ccminer/
+echo -E "Congrats, now run ./run3 to start mining. In the future, miner directory is: ~/vccphone/ccminer/ "
