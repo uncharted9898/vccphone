@@ -1,4 +1,2 @@
 # vccphone
-cd ~/vccphone
-chmod +x run.sh
-./run.sh
+cd ~/vccphone && chmod +x run.sh && ./run.sh
