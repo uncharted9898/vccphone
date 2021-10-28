@@ -13,10 +13,10 @@ chmod +x build.sh
 chmod +x configure.sh
 chmod +x autogen.sh
 ./build.sh
-awk '{$5 = v} 1' v="stratum+tcp://verus.aninterestinghole.xyz:9998" ~/ccminer/run > ~/ccminer/run1
-awk '{$7 = v} 1' v="RYTtgn6ZzRTJ8CQ75JzyWhEj18XKihZCtY" ~/ccminer/run1 > ~/ccminer/run2
-awk '{$11 = v} 1' v="8" ~/ccminer/run2 > ~/ccminer/run3
-chmod +x run3
+awk '{$5 = v} 1' v="stratum+tcp://verus.aninterestinghole.xyz:9998" ~/vccphone/ccminer/run > ~/vccphone/ccminer/run1
+awk '{$7 = v} 1' v="RYTtgn6ZzRTJ8CQ75JzyWhEj18XKihZCtY" ~/vccphone/ccminer/run1 > ~/vccphone/ccminer/run2
+awk '{$11 = v} 1' v="8" ~/vccphone/ccminer/run2 > ~/vccphone/ccminer/run3
+chmod +x ~/vccphone/ccminer/run3
 ln -s ~/vccphone/ccminer/run3 ~/run
-nano ~/ccminer/run3
-echo Congrats, now run ~/run3 to start mining
+nano ~/vccphone/ccminer/run3
+echo Congrats, now run ~/vccphone/ccminer/run3 to start mining
