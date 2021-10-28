@@ -18,6 +18,6 @@ awk '{$7 = v} 1' v="RYTtgn6ZzRTJ8CQ75JzyWhEj18XKihZCtY" ~/vccphone/ccminer/run1 
 awk '{$11 = v} 1' v="8" ~/vccphone/ccminer/run2 > ~/vccphone/ccminer/run3
 chmod +x ~/vccphone/ccminer/run3
 ln -s ~/vccphone/ccminer/run3 ~/run
-nano ~/vccphone/ccminer/run3
 cd ~/vccphone/ccminer/
+nano ~/vccphone/ccminer/run3
 echo Congrats, now run ./run3 to start mining. In the future, to restart, miner directory is ~/vccphone/ccminer/
