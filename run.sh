@@ -20,4 +20,4 @@ chmod +x ~/vccphone/ccminer/run3
 ln -s ~/vccphone/ccminer/run3 ~/run
 cd ~/vccphone/ccminer/
 nano ~/vccphone/ccminer/run3
-echo Congrats, now run ./run3 to start mining. In the future, to restart, miner directory is ~/vccphone/ccminer/
+echo Congrats, now run ./run3 to start mining. In the future, miner directory is: ~/vccphone/ccminer/
