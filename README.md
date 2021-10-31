@@ -1,6 +1,8 @@
 # AiH Easy Phone Miner Installer
 Install Userland / Debian 
 
+sudo apt-install git -y
+
 git clone https://github.com/uncharted9898/vccphone.git
 
 cd ~/vccphone && chmod +x run.sh && ./run.sh
